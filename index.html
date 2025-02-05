@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>贪吃蛇游戏 - 多难度版</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div id="score">得分: 0</div>
+            <div class="difficulty">
+                <button onclick="changeDifficulty('easy')">简单</button>
+                <button onclick="changeDifficulty('medium')">中等</button>
+                <button onclick="changeDifficulty('hard')">困难</button>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
